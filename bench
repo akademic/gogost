@@ -1,0 +1,3 @@
+#!/bin/sh -e
+
+exec go test -mod=vendor -benchmem -bench . ./...
